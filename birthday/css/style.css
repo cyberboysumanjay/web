@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffd54f;
+}
+
+.container {
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+span {
+  display: block;
+  font-size: 4.5rem;
+}
+.love {
+  display: inline-block;
+  position: relative;
+  top: .1em;
+  font-size: 1.4em;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+  color: red;
+}
+
+@-webkit-keyframes love {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+
+@-moz-keyframes love {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+
+@keyframes love {
+  to {
+    transform: scale(1.2);
+  }
+}
