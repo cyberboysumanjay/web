@@ -1,1 +1,0 @@
-Sample Payment UI
