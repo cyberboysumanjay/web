@@ -1,3 +1,3 @@
 A countdown clock for my Birthday 💖
 
-Check this here http://sumanjay.me/web/birthday/
+Check this here http://sumanjay.ooo/web/birthday/
